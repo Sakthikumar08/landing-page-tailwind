@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-page</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container mx-auto bg-green-200">
+        <nav class="flex justify-between items-center">
+            <div class="h-20 w-20 rounded-full">
+                <img class="rounded-full" src="image/th.jpeg" alt="logo">
+            </div>
+            <ul class="flex space-x-8">
+                <li><a class="text-gray-600 font-medium hover:text-blue-800" href="#">About</a></li>
+                <li><a class="text-gray-600 font-medium hover:text-blue-800"  href="#">Services</a></li>
+                <li><a class="text-gray-600 font-medium hover:text-blue-800"  href="#">Product</a></li>
+                <li><a class="text-gray-600 font-medium hover:text-blue-800"  href="#">Contact</a></li>
+            </ul>
+            <button class="bg-green-500 px-6 py-2 text-black rounded-full font-medium  hover:bg-green-800 hover:text-white">Sign UP</button>
+        </nav>
+    </div>
+    <!----hero section-->
+    <div class="container flex mx-auto mt-12">
+        <div class="w-1/2 ">
+            <img class="mx-auto " src="image/hero.png" alt="hero-img">
+        </div>
+        <div class="w-1/2 text-center ">
+            <p class=" mt-20">Lorem Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, saepe illum? Sint enim omnis eaque maiores ratione beatae. Quasi voluptate sapiente architecto ut temporibus nemo mollitia eveniet odio sequi corporis, iste omnis recusandae, asperiores sed? Maiores possimus aspernatur labore vero unde molestias est, provident quae accusamus omnis reiciendis, repellat sequi. ipsum dolor sit amet consectetur adipisicing elit. Distinctio labore quis, maxime asperiores facere suscipit molestiae deleniti dolore incidunt voluptas eaque, officiis ducimus a repudiandae cum aliquid quos debitis? Dicta vel neque doloremque! Repudiandae est laboriosam, recusandae voluptate explicabo rem, qui obcaecati, consequuntur similique provident velit vel quae atque esse. ipsum dolor sit amet consectetur adipisicing elit. Corporis, laboriosam sunt quo harum quas distinctio perspiciatis placeat, doloribus laudantium beatae omnis cum minus perferendis dicta!</p>
+            <button class="bg-blue-800 mt-6 font-bold text-white rounded-full px-10 py-4 text-xl hover:bg-gray-500 hover:text-white">Get Started</button>
+        </div>
+    </div>
+    <!---Main section-->
+    <div class="container mx-auto flex mt-16 ">
+        <div class="w-1/3 text-center flex flex-col items-center ">
+            <h1 class="text-2xl font-bold mb-6">WEB DEVELOPMENT</h1>
+            <img class="h-20 w-30 mt-6 " src="image/web.svg" alt="">
+            <p class="mt-6 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio non veniam, provident debitis sapiente nesciunt quibusdam vel earum, doloremque, tempore nisi repellendus expedita quas. Sit rerum odit nam ullam perferendis.</p>
+        </div>
+        <div class="w-1/3 text-center flex flex-col items-center ">
+            <h1 class="text-2xl font-bold mb-6">UI/UX DESIGNER</h1>
+            <img class="h-20 w-30 mt-6" src="image/uiux (1).svg" alt="">
+            <p class="mt-6 text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores eius illo totam, unde rerum dolorum voluptatem ut odit in vero sapiente delectus quod eos quis nihil. Error magnam explicabo tenetur?</p>
+        </div>
+        
+        <div class="w-1/3 text-center flex flex-col items-center border-2 border-solid border-blue-600 rounded-lg ">
+            <h1 class="text-2xl font-bold mb-6">MOBILE APPLICATION</h1>
+            <img class="h-20 w-30 mt-6 " src="image/app.svg" alt="">
+            <p class="mt-6 text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quod nam, reprehenderit aspernatur sed praesentium tempora, accusantium culpa aliquid obcaecati fuga repellendus molestiae ex nemo architecto suscipit? Tenetur, enim vel?</p>
+        </div>
+    </div>
+
+    <!---pricing section--->
+    <div class="container mt-12 mx-auto">
+        <div class="text-center">
+            <h1 class="text-green-700 font-thin underline text-2xl">Pricing</h1>
+            <p class="mt-6 text-3xl">Offer multiple feature for monthly and yearly basis</p>
+            <p class="mt-2 text-3xl">Featured plans</p>
+        </div>
+        <div class="grid grid-cols-3 gap-3">
+            <div class="bg-gray-500  w-80 rounded-lg text-center hover:shadow-lg relative">
+                <h1 class="font-bold text-3xl">$99</h1>
+                <h2 class="font-semibold text-xl text-blue-800">BASIC</h2>
+                <p class="mt-5">All the basic features are included:</p>
+                <ul class="ml-4 mb-10">
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-blue-700 fa-solid fa-square-check"></i></div>
+                        <div>Core Business System.</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-blue-700 fa-solid fa-square-check"></i></div>
+                        <div>Core Business System.</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-red-400 fa-solid fa-circle-exclamation"></i></div>
+                        <div>Custom features</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-red-400 fa-solid fa-circle-exclamation"></i></div>
+                        <div> Custom features</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-red-400 fa-solid fa-circle-exclamation"></i></i></div>
+                        <div>Custom features</div>
+                    </li>
+                </ul>
+
+                <button class="bg-blue-800 transform -translate-x-16 translate-y-4 absolute mt-6 font-bold text-white rounded-full px-10 py-4 text-xl hover:bg-gray-500 hover:text-white">Get Started</button>
+
+
+            </div>
+            <div class="bg-gray-500 h-40 w-80 rounded-lg text-center hover:shadow-lg border-4 border-blue-800 border-dashed mt-10">
+                <h1 class="font-bold text-3xl">$399</h1>
+                <h2 class="font-semibold text-xl text-blue-800">ADVANCED</h2>
+                <p class="mt-5">All the basic features are included:</p>
+                <ul class="ml-4">
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-blue-700 fa-solid fa-square-check"></i></div>
+                        <div>Core Business System.</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-blue-700 fa-solid fa-square-check"></i></div>
+                        <div>Core Business System.</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-blue-700 fa-solid fa-square-check"></i></div>
+                        <div>Core Business System.</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-blue-700 fa-solid fa-square-check"></i></div>
+                        <div>Core Business System.</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-red-400 fa-solid fa-circle-exclamation"></i></i></div>
+                        <div>Custom features</div>
+                    </li>
+                </ul>
+                <button class="bg-blue-800  transform -translate-x-16 translate-y-4 absolute mt-6 font-bold text-white rounded-full px-10 py-4 text-xl hover:bg-gray-500 hover:text-white">Get Started</button>
+
+            </div>
+            <div class="bg-gray-500 h-40 w-80 rounded-lg text-center hover:shadow-lg">
+                <h1 class="font-bold text-3xl">$199</h1>
+                <h2 class="font-semibold text-xl text-blue-800">INTERMEDIATE</h2>
+                <p class="mt-5">All the basic features are included:</p>
+                <ul class="ml-4">
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-blue-700 fa-solid fa-square-check"></i></div>
+                        <div>Core Business System.</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-blue-700 fa-solid fa-square-check"></i></div>
+                        <div>Core Business System.</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-blue-700 fa-solid fa-square-check"></i></div>
+                        <div>Core Business System.</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-red-400 fa-solid fa-circle-exclamation"></i></div>
+                        <div>Custom features</div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div><i class="text-red-400 fa-solid fa-circle-exclamation"></i></div>
+                        <div>Custom features</div>
+                    </li>
+                </ul>
+                <button class="bg-blue-800 transform -translate-x-16 translate-y-4 absolute mt-6 font-bold text-white rounded-full px-10 py-4 text-xl hover:bg-gray-500 hover:text-white">Get Started</button>
+
+            </div>
+        </div>
+    </div>
+    <!---story section-->
+    <div>
+        <div class="text-center mt-10">
+            <h1>Recnt Updates</h1>
+            <h1 class="font-4xl font-bold mt-8">Featured story</h1>
+        </div>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="bg-gray-400 text-center rounded-lg hover:shadow-lg">
+                <img class="w-full" src="https://picsum.photos/200">
+                <h1 class="text-blue-700 font-bold mt-6 text-2xl">Google</h1>
+                <p class="font-thin my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, esse.</p>
+                <a href="#" class="text-blue-500 font-bold text-xl hover:text-black">Read More</a>
+            </div>
+            <div class="bg-gray-400 text-center rounded-lg hover:shadow-lg">
+                <img class="w-full" src="https://picsum.photos/200">
+                <h1 class="text-blue-700 font-bold mt-6 text-2xl">Amazon</h1>
+                <p class="font-thin my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, esse.</p>
+                <a href="#" class="text-blue-500 font-bold text-xl hover:text-black">Read More</a>
+            </div>
+            <div class="bg-gray-400 text-center rounded-lg hover:shadow-lg">
+                <img class="w-full" src="https://picsum.photos/200">
+                <h1 class="text-blue-700 font-bold mt-6 text-2xl">Microsoft</h1>
+                <p class="font-thin my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, esse.</p>
+                <a href="#" class="text-blue-500 font-bold text-xl hover:text-black">Read More</a>
+            </div>
+        </div>
+    </div>
+   
+    <!----footer-->
+    <footer class="mt-16">
+        <div class="container h-96 bg-green-300 flex justify-evenly">
+            <div class="w-1/4 font-extrabold text-3xl">
+                <h1>Landing page</h1>
+            </div>
+
+            <div class="w-1/2 flex ">
+                <div class="pr-8">
+                    <h2 class="tex-xl font-bold">links</h2>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="">product</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+                <div class="pr-8">
+                    <h2 class="tex-xl font-bold">links</h2>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="">product</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+                <div class="pr-8">
+                    <h2 class="tex-xl font-bold">links</h2>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="">product</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-1/4 flex justify-end gap-4">
+                <h2 class="mr-2"><i class="fa-brands fa-facebook"></i></h2>
+                <h2 class="mr-2"><i class="fa-brands fa-instagram"></i></h2>
+                <h2 class="mr-2"><i class="fa-brands fa-twitter"></i></h2>
+            </div>
+        </div>
+    </footer>
+
+   
+</body>
+</html> 
